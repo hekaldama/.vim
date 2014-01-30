@@ -13,6 +13,7 @@ match DiffAdd '\%>80v.*'
 " HIGHLIGHT STUFF
 highlight Pmenu ctermbg=grey gui=bold
 highlight PmenuSel ctermfg=red gui=bold
+highlight Search term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 
 
 " Easy window navigation
@@ -31,6 +32,15 @@ map <silent> ,V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloa
 map ,w :%s/\s\+$//g<CR>
 nnoremap <silent> <Leader>a :!git grep --color <cword><CR>
 
+" Used to easily switch between OSS standards
+" Ruby
+map <F8> :set ts=2 sw=2 sts=2 expandtab<CR>
+" GNU emacs indentation
+map <F9> :set ts=8 sw=4 sts=4 noexpandtab<CR>
+" Kernel indentation
+map <F10> :set ts=8 sw=8 sts=0 noexpandtab<CR>
+
+
 
 " SET STUFF
 set pastetoggle=<F6>
@@ -40,3 +50,4 @@ set expandtab
 set smarttab
 set listchars=tab:>-,trail:.,extends:>,precedes:<,nbsp:%
 set wildmode=longest,list
+
