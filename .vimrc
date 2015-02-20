@@ -32,6 +32,7 @@ map <silent> ,V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloa
 map ,w :%s/\s\+$//g<CR>
 nnoremap <silent> <Leader>a :!git grep --color <cword><CR>
 
+
 " Used to easily switch between OSS standards
 " Ruby
 map <F8> :set ts=2 sw=2 sts=2 expandtab<CR>
