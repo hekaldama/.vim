@@ -1,3 +1,1 @@
-setlocal tabstop=8
-setlocal shiftwidth=8
-setlocal noexpandtab
+let g:go_fmt_autosave = 1
