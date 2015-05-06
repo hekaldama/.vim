@@ -40,3 +40,6 @@
 [submodule "bundle/Dockerfile"]
 	path = bundle/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/querycommandcomplete"]
+	path = bundle/querycommandcomplete
+	url = https://github.com/bhenderson/querycommandcomplete.vim.git
