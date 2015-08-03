@@ -43,3 +43,6 @@
 [submodule "bundle/querycommandcomplete"]
 	path = bundle/querycommandcomplete
 	url = https://github.com/bhenderson/querycommandcomplete.vim.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/mustache/vim-mustache-handlebars.git
