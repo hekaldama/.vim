@@ -52,4 +52,4 @@ set smarttab
 set listchars=tab:>-,trail:.,extends:>,precedes:<,nbsp:%
 set wildmode=longest,list
 
-
+colorscheme default

@@ -43,3 +43,9 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/vim-yaml"]
+	path = bundle/vim-yaml
+	url = git@github.com:avakhov/vim-yaml.git
+[submodule "bundle/vim-bats"]
+	path = bundle/vim-bats
+	url = https://github.com/markcornick/vim-bats.git
