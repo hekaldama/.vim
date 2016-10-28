@@ -49,3 +49,6 @@
 [submodule "bundle/vim-bats"]
 	path = bundle/vim-bats
 	url = https://github.com/markcornick/vim-bats.git
+[submodule "bundle/vim-rego"]
+	path = bundle/vim-rego
+	url = git@github.com:tsandall/vim-rego.git
