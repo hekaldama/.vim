@@ -53,3 +53,4 @@ set listchars=tab:>-,trail:.,extends:>,precedes:<,nbsp:%
 set wildmode=longest,list
 
 colorscheme default
+hi Search ctermbg=blue ctermfg=white
