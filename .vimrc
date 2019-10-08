@@ -51,6 +51,10 @@ set expandtab
 set smarttab
 set listchars=tab:>-,trail:.,extends:>,precedes:<,nbsp:%
 set wildmode=longest,list
+set clipboard=unnamedplus
 
 colorscheme default
 hi Search ctermbg=blue ctermfg=white
+
+" enable AutoSave on Vim startup
+let g:auto_save = 1

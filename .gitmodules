@@ -52,3 +52,15 @@
 [submodule "bundle/vim-rego"]
 	path = bundle/vim-rego
 	url = git@github.com:tsandall/vim-rego.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
+[submodule "bundle/vim-hocon.git"]
+	path = bundle/vim-hocon.git
+	url = https://github.com/GEverding/vim-hocon.git
+[submodule "bundle/vim-auto-save"]
+	path = bundle/vim-auto-save
+	url = git@github.com:vim-scripts/vim-auto-save.git
